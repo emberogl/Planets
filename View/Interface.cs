@@ -4,6 +4,7 @@ namespace Planets.View
 {
     internal class Interface
     {
+        // Outputs every planet saved to list and its properties.
         public static void OutputPlanetList()
         {
             foreach (Planet planet in PlanetList.planetList)
